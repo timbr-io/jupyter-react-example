@@ -1,7 +1,7 @@
 from jupyter_react import Component 
 
 class Thing(Component):
-    module = 'thing'
+    module = 'Thing'
 
     def __init__(self, **kwargs):
         super(Thing, self).__init__(target_name='react.thing', **kwargs)
