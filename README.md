@@ -16,7 +16,10 @@ Inside a Jupyter Notebook
 ```python
 from example import Thing
 from IPython.display import display
+import random
 
-mything = Thing(props={})
+data = [[{'y': random.randrange(1,10), "x": i+1} for i, v in enumerate(range(10))] for x in [1,2,3,4]]
+
+mything = Thing(props={"data":data})
 display(mything)
 ```
