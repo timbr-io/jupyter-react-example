@@ -1,0 +1,41 @@
+{
+  "name": "react-example-thing",
+  "version": "0.0.1",
+  "description": "example of react components used in the notebook",
+  "main": "index.js",
+  "author": "Chris Helm",
+  "license": "ISC",
+  "keywords": [
+    "jupyter",
+    "ipython",
+    "react"
+  ],
+  "scripts": {
+    "prepublish": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "json-loader": "^0.5.4",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14",
+    "transform-loader": "^0.2.3"
+  },
+  "dependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.5.0",
+    "jupyter-react-js": "^0.5.0",
+    "react": "^15.3.2",
+    "react-d3-basic": "^1.6.11",
+    "react-d3-core": "^1.3.9",
+    "react-dom": "^15.3.2"
+  }
+}
