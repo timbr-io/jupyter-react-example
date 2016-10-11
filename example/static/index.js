@@ -270,6 +270,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 		  var _prompt = document.createElement('div');
 		  _prompt.classList.add('prompt');
+	          _prompt.style['min-width'] = '14ex';
 		  area.appendChild(_prompt);
 
 		  var subarea = document.createElement('div');

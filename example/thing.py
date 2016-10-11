@@ -1,3 +1,4 @@
+from __future__ import print_function
 from jupyter_react import Component 
 
 class Thing(Component):
@@ -8,4 +9,4 @@ class Thing(Component):
         self.on_msg(self._handle_msg)
 
     def _handle_msg(self, msg):
-        print msg   
+        print(msg)
